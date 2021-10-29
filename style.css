@@ -269,13 +269,15 @@ input::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    font-family: 'muller';
+
 
 }
 
 .about-block {
     max-width: 1272px;
     margin-top: 100px;
-    height: 972px;
     background: #000066;
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
@@ -330,6 +332,108 @@ input::placeholder {
     line-height: 50px;
     margin-top: 20px;
 }
+
+
+.result {
+    font-family: 'muller';
+    margin-top: 50px;
+    display: flex;
+    padding: 0;
+    max-width:1272px;
+    width: 100%;
+    position: relative;
+}
+
+.result-title {
+    color: #000066;
+    margin-bottom: 30px;
+}
+.result-block {
+         width:865px;
+         padding: 50px;
+         background-color: #fff;
+         border-radius: 50px;
+}
+
+.result-title h3 {
+    font-size: 47px;
+}
+
+.result-list > li {
+        font-size: 30px;
+        margin-top: 30px;
+        font-weight: 100;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        list-style: url(./img/8.png);
+        margin-left: 20px;
+}
+
+.result-img {
+    position: relative;
+    right: 107px;
+    z-index: 2;
+   
+    
+}
+
+.result-img img {
+ width: 100%;
+}
+
+.book {
+    width: 30%;
+}
+
+
+
+.ratio {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   
+}
+
+
+.ratio-block {
+         max-width:1272px;
+         padding: 50px;
+         background-color: #fff;
+         border-radius: 50px;
+         margin-top: 100px;
+         position: relative;
+}
+
+.smile {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 50px;
+  
+}
+
+.ratio-title {
+    color: #000066;
+    margin-bottom: 30px;
+}
+
+.ratio-title h3 {
+    font-size: 47px;
+}
+
+.ratio-list > li {
+        font-size: 30px;
+        margin-top: 30px;
+        font-weight: 100;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        list-style: url(./img/9.png);
+        margin-left: 20px;
+}
+
+
+
+
+
+
 
 
 
