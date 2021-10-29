@@ -24,7 +24,46 @@
     justify-content: center;
     width: 100%;
 }
+
+
+ 
    
+   @media screen and (max-width: 1340px) {
+
+   
+
+    
+    .header__text img {
+    position: relative;
+    right: 130px;
+    width:580px;
+    top: 70px;
+}
+
+  }
+
+  @media screen and (max-width: 1340px) {
+    .header__text img {
+    position: relative;
+    right: 130px;
+    width:580px;
+    top: 70px;
+}
+
+.menu ul li {
+   
+    font-size: 0.2em;
+
+}
+    }
+
+    @media screen and (max-width: 1040px) {
+        .header__text img {
+        
+        width:380px;
+        font-size: 0.2em;
+    }
+        }
 
 
 
@@ -182,7 +221,6 @@
     position: relative;
     right: 130px;
     max-width:880px;
-    width: 100%;
     top: 70px;
 }
 
@@ -543,6 +581,7 @@ border: 2px solid #FFFFFF;
     background-color: #2654ED;
     display: flex;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .speakers {
@@ -554,25 +593,101 @@ border: 2px solid #FFFFFF;
     border: 2px solid #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
-justify-content: center;
+    justify-content: space-between;
+    padding: 3em;
+    align-items: center;
+    align-items: flex-start;
+
 }
 
 .speaker {
     display: flex;
     flex-direction: column;
     font-family: 'muller';
+    max-width: 336px;
+    align-items: flex-start;
 }
 
 
 
 
 .speaker-name {
-width: 100%;
-height: 84px;
+display: flex;
+align-items: center;
+justify-content: center;
 font-size: 38px;
+padding: 10px 30p;
 background: #FF3D00;
 color: #fff;
+width: 100%;
+height: 90px;
+justify-content: flex-start;
+align-items: flex-start;
+
 }
+
+.speaker-info {
+    color: #fff;
+    font-size:23px;
+    margin-top: 20px;
+    align-items: flex-start;
+
+}
+
+.speak-img {
+    max-width: 300px;
+    width: 100%;
+    align-items: flex-start;
+
+}
+
+.speaker-head  {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+    padding:30px 30px;
+    
+   
+    width: 338px;
+    height: 46px;
+    left: 886px;
+    top: 328px;
+    
+    background: #FF3D00;
+    border-radius: 22px;
+    
+}
+
+
+.contact-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Muller;
+    font-size: 22px;
+
+
+}
+
+.contact {
+    margin-top: 100px;
+    max-width: 1307px;
+    width: 100%;
+    border: 2px solid red;
+    padding: 100px;
+}
+
+.synergy {
+    text-align: right;
+    color: #FF3D00;
+}
+
+
+
+
 
 
 
