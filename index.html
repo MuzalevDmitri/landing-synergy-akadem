@@ -8,7 +8,7 @@
     <title>Школа быстрого чтения</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
 </head>
 
 <body>
@@ -26,20 +26,43 @@
                     </div>
                     <nav>
                         <ul>
-                            <li>О курсе</li>
-                            <li>Результаты</li>
-                            <li>Стоимость</li>
+                            <li><a href="#">О курсе</a></li>
+                            <li><a href="#">Результаты</a></li>
+                            <li><a href="#">Стоимость</a></li>
                         </ul>
                     </nav>
                     <div class="social-icons">
-                        <img src="./img/Union.svg" alt="">
-                        <img src="./img/Union-2.svg" alt="">
-                        <img src="./img/Union-3.svg" alt="">
+                        <a href="#"><img src="./img/Union.svg" alt=""></a>
+                        <a href="#"><img src="./img/Union-2.svg" alt=""></a>
+                        <a href="#"><img src="./img/Union-3.svg" alt=""></a>
+
+
                     </div>
                     <div class="number">
                         <img src="./img/mobile.png" alt="">
-                        <div class="tel">+7 (495) 280-01-79</div>
+                        <div class="tel"> +7 (495) 280-01-79</div>
                     </div>
+
+
+
+                    <!-- мобильное меню - начало  -->
+
+
+                    <div class="burger-menu">
+                        <input id="menu-toggle" type="checkbox" />
+                        <label class="menu-btn" for="menu-toggle">
+                          <span></span>
+                        </label>
+
+                        <ul class="menubox">
+                            <li><a class="menu-item" href="#">Home</a></li>
+                            <li><a class="menu-item" href="#">About us</a></li>
+                            <li><a class="menu-item" href="#">Blog</a></li>
+                            <li><a class="menu-item" href="#">Articles</a></li>
+                            <li><a class="menu-item" href="#">Contacts</a></li>
+                        </ul>
+                    </div>
+                    <!-- мобильное меню - конец  -->
                 </div>
 
                 <div class="header__text">
@@ -49,7 +72,7 @@
                         <span>Для детей</span>
                         <span>От 8 до 13 лет</span>
                     </div>
-                    <img src="img/image 89.png" alt="">
+                    <img class="img-header" src="img/image 89.png" alt="">
                 </div>
                 <h2>Повысьте интерес к учебе и освойте эффективную методику скорочтения</h2>
                 <div class="forms">
@@ -58,8 +81,12 @@
                         <input type="text" placeholder="телефон">
                         <input type="text" placeholder="e-mail">
                         <button class="go">Хочу пойти</button>
+                        <span class='rule'><img src="./img/ok.png" alt=""> СОГЛАСЕН НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ, ПОЛУЧЕНИЕ РАССЫЛОК, А ТАКЖЕ С <u><a href=""> ПОЛИТИКОЙ КОНФИДЕНЦИАЛЬНОСТИ </u></a>
+                        </span>
                     </form>
+
                 </div>
+
             </div>
         </header>
 
@@ -85,10 +112,8 @@
                         <li><img src="./img/4.png" alt=""><span>Расположение в двух минутах от ст. м. Лубянка</span>
                         </li>
                     </ul>
-                    <p>Программа занятий имеет модульную структуру, каждый модуль состоит из практических заданий,
-                        направленных на повышение успеваемости ребенка. Занятия носят тренировочный характер и включают
-                        упражнения на тренировку когнитивных процессов, речи и скорости чтения. В курсе 5 блоков по 12
-                        уроков. Продолжительность занятия: 1 час 20 минут.
+                    <p>Программа занятий имеет модульную структуру, каждый модуль состоит из практических заданий, направленных на повышение успеваемости ребенка. Занятия носят тренировочный характер и включают упражнения на тренировку когнитивных процессов,
+                        речи и скорости чтения. В курсе 5 блоков по 12 уроков. Продолжительность занятия: 1 час 20 минут.
                     </p>
                 </div>
             </div>
@@ -112,6 +137,7 @@
 
             <div class="ratio">
                 <div class="ratio-block">
+                    <img class="book" src="./img/book.png" alt="">
                     <div class="ratio-title">
                         <h3>Подойдет детям, у которых:</h3>
                     </div>
@@ -140,9 +166,7 @@
                 <div class="price-items">
                     <div class="item">
                         <div class="item-title">
-                            <img class="faer" src="./img/faer.png" alt="">
-
-                            Заголовок 1
+                            <img class="faer" src="./img/faer.png" alt=""> Заголовок 1
                         </div>
                         <div class="item-text">
                             наполнение с расписанием
@@ -155,9 +179,7 @@
 
                     <div class="item">
                         <div class="item-title">
-                            <img class="faer" src="./img/faer.png" alt="">
-
-                            Заголовок 2
+                            <img class="faer" src="./img/faer.png" alt=""> Заголовок 2
                         </div>
                         <div class="item-text">
                             наполнение с расписанием
@@ -172,8 +194,7 @@
 
                     <div class="item">
                         <div class="item-title">
-                            <img class="faer" src="./img/faer.png" alt="">
-                            Заголовок 3
+                            <img class="faer" src="./img/faer.png" alt=""> Заголовок 3
                         </div>
                         <div class="item-text">
                             наполнение с расписанием
@@ -203,8 +224,7 @@
                     <img src="./img/anna.png" alt="">
                     <span class="speaker-head">Анна <br> белова</span>
                     <p class="speaker-info">
-                        Интеллект-тренер по программе скорочтения с 5-летним стажем в области развития интеллекта у
-                        детей и взрослых. Владеет методиками развития памяти и внимания.
+                        Интеллект-тренер по программе скорочтения с 5-летним стажем в области развития интеллекта у детей и взрослых. Владеет методиками развития памяти и внимания.
                     </p>
 
                 </div>
@@ -213,9 +233,7 @@
                     <img class="speak-img" src="/img/sveta.png" alt="">
                     <span class="speaker-head">Светлана <br> Ефремова</span>
                     <p class="speaker-info">
-                        Методолог, интеллект-тренер, эксперт в области когнитивной психологии, автор методики «Школы
-                        быстрого чтения». Автор > 50 программ и тренингов для детей и взрослых по развитию памяти,
-                        внимания, креативного мышления и коммуникативных способностей.
+                        Методолог, интеллект-тренер, эксперт в области когнитивной психологии, автор методики «Школы быстрого чтения». Автор > 50 программ и тренингов для детей и взрослых по развитию памяти, внимания, креативного мышления и коммуникативных способностей.
 
                     </p>
 
@@ -225,9 +243,7 @@
                     <img src="./img/katya.png" alt="">
                     <span class="speaker-head">Екатерина <br> Немыкина</span>
                     <p class="speaker-info">
-                        Интеллект-тренер по программе быстрого чтения, психолог с 6-летним опытом работы, победитель и
-                        призер конкурсов профессионального мастерства, специалист в области развития когнитивных
-                        способностей и психологической устойчивости.
+                        Интеллект-тренер по программе быстрого чтения, психолог с 6-летним опытом работы, победитель и призер конкурсов профессионального мастерства, специалист в области развития когнитивных способностей и психологической устойчивости.
 
                     </p>
 
@@ -244,9 +260,7 @@
                 <div class="synergy-info">
                     <div class="info-text">
                         <img src="./img/logo-bottom.png" alt="">
-                        <p>Synergy Intellect Center — ведущий образовательный центр по развитию когнитивных навыков.
-                            Центр нацелен на создание комфортной образовательной среды для всестороннего развития
-                            интеллектуальных возможностей человека.
+                        <p>Synergy Intellect Center — ведущий образовательный центр по развитию когнитивных навыков. Центр нацелен на создание комфортной образовательной среды для всестороннего развития интеллектуальных возможностей человека.
                         </p>
                     </div>
                     <div class="stat">
@@ -256,7 +270,7 @@
                             <span class="stat-list-bot">Успешных выпусников</span>
                         </div>
                         <div class="stat-list">
-                            <span class="stat-list-top" >500+</span>
+                            <span class="stat-list-top">500+</span>
                             <span class="stat-list-bot">профессиональных программ по развитию бизнеса</span>
                         </div>
                         <div class="stat-list">
@@ -276,13 +290,13 @@
 
 
 
-<!-- gallery -->
+        <!-- gallery -->
         <div class="gallery-block">
             <div class="gallery-heading">Наша площадка</div>
             <div class="gallery">
                 <div class="img-left">
                     <img src="./img/left.png" alt="">
-                    
+
                 </div>
                 <div class="img-center">
                     <img src="./img/center-one.png" alt="">
@@ -294,23 +308,53 @@
             </div>
         </div>
 
-<!-- gallery END -->
+        <!-- gallery END -->
 
 
 
 
 
-<!-- maps -->
+        <!-- maps -->
 
-<div class="map-block">
-    <div class="map-heading">
-        <h3>Наш адресс</h3>
-        <p>Наш адрес: Москва, Мясницкая улица, 8/2с1</p>
-    </div>
-    <div class="map">
-        <iframe class="address__iframe" src="https://yandex.ru/map-widget/v1/?um=constructor%3A0321ca7176bda49f8fa907e8bae4cff8d2e4c229290807ffdac1bf5becbe0bd8&amp;source=constructor" width="100%" height="100%" frameborder="1" allowfullscreen="true"></iframe>
-    </div>
-</div>
+        <div class="map-block">
+            <div class="map-heading">
+                <h3>Наш адресс</h3>
+                <p>Наш адрес: Москва, Мясницкая улица, 8/2с1</p>
+            </div>
+            <div class="map">
+                <iframe class="address__iframe" src="https://yandex.ru/map-widget/v1/?um=constructor%3A0321ca7176bda49f8fa907e8bae4cff8d2e4c229290807ffdac1bf5becbe0bd8&amp;source=constructor" width="100%" height="100%" frameborder="1" allowfullscreen="true"></iframe>
+            </div>
+        </div>
+
+
+        <footer class="header">
+            <div class="header__content">
+
+                <div class="header__text">
+                    <div class="blur"></div>
+                    <div class="info">
+                        <h1>Школа быстрого чтения</h1>
+                        <span>Для детей</span>
+                        <span>От 8 до 13 лет</span>
+                    </div>
+                    <img class="img-header" src="img/image 89.png" alt="">
+                </div>
+                <h2>Повысьте интерес к учебе и освойте эффективную методику скорочтения</h2>
+                <div class="forms">
+                    <form action="">
+                        <input type="text" placeholder="имя">
+                        <input type="text" placeholder="телефон">
+                        <input type="text" placeholder="e-mail">
+                        <button class="go">Хочу пойти</button>
+                        <span class='rule'><img src="./img/ok.png" alt=""> СОГЛАСЕН НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ, ПОЛУЧЕНИЕ РАССЫЛОК, А ТАКЖЕ С <u><a href=""> ПОЛИТИКОЙ КОНФИДЕНЦИАЛЬНОСТИ </u></a>
+                        </span>
+                    </form>
+
+                </div>
+
+            </div>
+        </footer>
+
 
 
     </div>
