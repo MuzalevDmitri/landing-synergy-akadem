@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "muller";
+    src: url("./fonts/MullerBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background:#000066;
+    font-family: 'Muller';
+
+}
+
+.container-thank {
+    max-width:1338px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+
+.header-top {
+    width: 100%;
+    background:#FF3D00;
+    height: 74px;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 43px;
+    margin-top: 82px;
+}
+
+.box-thank {
+    background: #ffff;
+    margin-top: 150px;
+    max-width: 865px;
+    width: 100%;
+    height: 655px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 50px;
+
+
+
+}
+
+.thank-text h1 {
+    font-size:135px;
+    color:#FF3D00;
+    text-transform: uppercase;
+
+}
+
+.thank-text p {
+    font-size:45px;
+    color:#000066;
+}
+
+.kids {
+    position: absolute;
+    top: 0;
+    right: -435px;
+    max-width:540px;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1320px) {
+    .container-thank {
+        max-width:930px;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .box-thank {
+        max-width: 665px;
+        width: 100%;
+        height: 455px;
+
+    }
+
+    .thank-text h1 {
+        font-size:80px;
+        text-align: center;
+    }
+
+    .thank-text p {
+        font-size:30px;
+    }
+
+    .kids {
+        right: -325px;
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 1120px) {
+    .container-thank {
+        max-width:730px;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .box-thank {
+        max-width: 565px;
+        width: 100%;
+        height: 355px;
+
+    }
+
+    .thank-text h1 {
+        font-size:60px;
+        text-align: center;
+    }
+
+    .thank-text p {
+        font-size:35px;
+    }
+
+    .kids {
+        right: -228px;
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 920px) {
+    .container-thank {
+        max-width:430px;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .box-thank {
+        max-width:295px;
+        width: 100%;
+        height: 255px;
+        margin-top: 50px;
+
+    }
+
+    .thank-text h1 {
+        font-size:40px;
+        text-align: center;
+    }
+
+    .thank-text p {
+        font-size:20px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .kids {
+        right: -165px;
+        width: 70%;
+    }
+
+}
+
+
+@media screen and (max-width: 650px) {
+    .container-thank {
+        max-width:330px;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .box-thank {
+        max-width:225px;
+        width: 100%;
+        height: 255px;
+        margin-top: 50px;
+
+    }
+
+    .thank-text h1 {
+        font-size:40px;
+        text-align: center;
+    }
+
+    .thank-text p {
+        font-size:20px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .kids {
+        right: -125px;
+        width: 70%;
+    }
+
+}
+
+
+
+
+
+
